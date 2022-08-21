@@ -2,6 +2,7 @@ import * as actionTypes from "../actions/actionTypes";
 
 const counterReducer = (state = 0, action) => {
   let newState;
+  
   switch (action.type) {
     case actionTypes.INCREASE_COUNTER:
       return (newState = state + action.payload);
