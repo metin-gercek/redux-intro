@@ -7,7 +7,7 @@ function App() {
   return (
     <div >
       <Counter />
-      <div>
+      <div className='counter'>
         <IncreaseCounter />
         <DecreaseCounter />
         <IncreaseByTwoCounter />
