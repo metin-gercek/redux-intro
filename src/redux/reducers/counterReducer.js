@@ -5,19 +5,19 @@ const counterReducer = (state = 0, action) => {
   
   switch (action.type) {
     case actionTypes.INCREASE_COUNTER:
-      return {
-        ...state,
-        state : state + action.payload};
+      return (
+        
+        state = state + action.payload);
 
     case actionTypes.DECREASE_COUNTER:
-      return {
-        ...state,
-        state : state - action.payload};
+      return (
+        
+        state = state - action.payload);
 
     case actionTypes.INCREASE_BY_TWO_COUNTER:
-      return {
-        ...state,
-        state : state + action.payload};
+      return (
+        
+        state = state + action.payload);
 
     default:
       return state;

@@ -7,9 +7,11 @@ function App() {
   return (
     <div >
       <Counter />
-      <IncreaseCounter />
-      <DecreaseCounter />
-      <IncreaseByTwoCounter />
+      <div>
+        <IncreaseCounter />
+        <DecreaseCounter />
+        <IncreaseByTwoCounter />
+      </div>
      
     </div>
   );
